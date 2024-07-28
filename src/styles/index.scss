@@ -338,7 +338,7 @@ img {
 }
 
 .home__blob-img {
-  width: 220px;
+  width: 180px;
 }
 
 .home__data {
@@ -477,6 +477,7 @@ img {
 .about__buttons {
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 
 /*==================== SKILLS ====================*/
@@ -556,7 +557,7 @@ img {
 }
 
 .skills__html {
-  width: 60%;
+  width: 50%;
 }
 
 .skills__css {
@@ -564,11 +565,15 @@ img {
 }
 
 .skills__js {
-  width: 30%;
+  width: 50%;
 }
 
 .skills__vue {
-  width: 10%;
+  width: 70%;
+}
+
+.skills__uniapp {
+  width: 40%;
 }
 
 .skills__java {
@@ -576,7 +581,11 @@ img {
 }
 
 .skills__python {
-  width: 50%;
+  width: 40%;
+}
+
+.skills__c {
+  width: 40%;
 }
 
 .skills__open .skills__list {
